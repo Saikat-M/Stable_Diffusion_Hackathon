@@ -1,0 +1,166 @@
+body {
+  background-color: #ecf1f1;
+  font-family: sans-serif;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.message-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-message {
+  background-color: #f2f2f2;
+  color: #444;
+  border-radius: 5px;
+  /* padding: 10px; */
+  max-width: 80%;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.bot-message {
+  /* background-color: #0066ff; */
+  color: #fff;
+  border-radius: 5px;
+  /* padding: 10px;
+  max-width: 80%; */
+  align-self: flex-start;
+  /* margin-left: 10px; */
+}
+
+.message-input {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 36%;
+  font-size: 16px;
+}
+
+.upload-message-input {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 50%;
+  font-size: 16px;
+}
+
+.ask-message-input {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 80%;
+  font-size: 16px;
+}
+
+.dropdown-input {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 33%;
+  font-size: 16px;
+}
+
+.message-submit {
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.chatGPT-button {
+  background-color: #d0ed65;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.upload-button {
+  background-color: #aed421;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px
+}
+
+.publish-button {
+  background-color: #107a27;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  /* top: 20px; */
+  /* right: 20px; */
+  margin: 14px;
+}
+
+.download-button {
+  background-color: #e0af26;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  /* margin-right: 10px; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  position: 'relative';
+  min-height: '100vh';
+  background-color: 'seaGreen';
+}
+
+.chatBox {
+  position: 'absolute';
+  bottom: 0;
+  left: 0;
+  width: '100%';
+  background-color: 'white';
+  padding: '20px';
+  box-sizing: 'border-box';
+}
+
+.response-div {
+  width: 100%;
+  margin-left: 38px;
+  padding-top: 11px;
+}
+
+.response-box {
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 88%;
+  font-size: 16px;
+}
+
+
